@@ -11,7 +11,7 @@
            fetch="https://github.com/PixelExperience" />
   
           
-  <project path="device/xiaomi/merlin" name="android_device_xiaomi_merlin" remote="fourninesix" revision="ssos" clone-depth="1" />
+  <project path="device/xiaomi/merlin" name="android_device_xiaomi_merlin" remote="fourninesix" revision="banana" clone-depth="1" />
 
   <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="fourninesix" revision="eleven" clone-depth="1" />" 
 
