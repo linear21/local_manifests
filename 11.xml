@@ -10,7 +10,7 @@
   <remote  name="patch"
            fetch="https://github.com/PixelExperience" />
   
-  <remove-project name="device/generic/opengl-transport" />
+
   
   <project path="device/xiaomi/merlin" name="android_device_xiaomi_merlin" remote="fourninesix" revision="awaken" clone-depth="1" />
 
