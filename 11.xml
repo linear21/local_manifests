@@ -12,6 +12,8 @@
   
   <remote  name="DT"
            fetch="https://github.com/NgabRio" />
+  
+  <remove-project name="device/generic/opengl-transport" />
           
   <project path="device/xiaomi/merlin" name="device_xiaomi_merlinx" remote="DT" revision="hentai" clone-depth="1" />
 
