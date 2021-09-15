@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="Redmi-MT6768"
+           fetch="https://github.com/Redmi-MT6768" />
+
+  <remote  name="fourninesix"
+           fetch="https://github.com/fourninesix" />
+
+  <remote  name="patch"
+           fetch="https://github.com/PixelExperience" />
+  
+  <remote  name="DT"
+           fetch="https://github.com/NgabRio" />
+
+  <remote  name="whyred"         
+           fetch="https://github.com/hentaiOS-whyred" />
+
+  <remove-project name="device/generic/opengl-transport" />
+  <remove-project name="platform_system_sepolicy" />
+  <remove-project name="platform_bionic" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform_external_arm-optimized-routines" />
+  <remove-project name="platform_art" />
+
+  <project path="device/xiaomi/merlin" name="android_device_xiaomi_merlin" remote="DT" revision="hentai" clone-depth="1" />
+  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="DT" revision="eleven" clone-depth="1" />" 
+  <project path="vendor/xiaomi/merlin" name="android_vendor_xiaomi_merlin" remote="Redmi-MT6768" revision="eleven" clone-depth="1" />
+  <project path="kernel/xiaomi/mt6768" name="based_kernel" remote="Redmi-MT6768" revision="eleven" clone-depth="1" />
+  <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="patch" revision="eleven" clone-depth="1" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="patch" revision="eleven" clone-depth="1" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="whyred" revision="Rika" clone-depth="1" />
+  <project path="platform/bionic" name="platform_bionic" remote="whyred" revision="Rika" clone-depth="1" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="whyred" revision="Rika" clone-depth="1" />
+  <project path="external/jemalloc_new" name="platform_external_jemalloc_new" remote="whyred" revision="Rika" clone-depth="1" />
+  <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="whyred" revision="Rika" clone-depth="1" />
+  <project path="platform/art" name="platform_art" remote="whyred" revision="Rika" clone-depth="1" />
+</manifest>
